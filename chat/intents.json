@@ -1,0 +1,127 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "Hello Mam",
+        "Hello Sir",
+        "Good Morning Mam",
+        "Good Morning sir",
+        "How are you",
+        "Is anyone there?",
+        "Hello",
+        "Good day"
+      ],
+      "responses": [
+        "Hey :) Welcome!! I am Interview chatbot..\nTell me your name ",
+        "Hi there,Welcome .. \n Tell me your name ",
+        "Hello there!!!..\n Tell me your name"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye"],
+      "responses": [
+        "See you later, thanks for visiting",
+        "Have a nice day",
+        "Bye! Come back again soon."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+      "responses": ["Happy to help!", "Any time!", "My pleasure"]
+    },
+    {
+      "tag": "Question1",
+      "patterns": [
+        "My name is",
+        "I am","I am xxxxx","My name is something"
+      ],
+      "responses": [
+        "Nice Name...\n Can you provide Your Email",
+        "I will remember your name..\n Please give me your Email",
+        "okay..Can i know your email address"
+      ]
+    },
+    {
+      "tag": "Email",
+      "patterns": [
+        "XXXXXX@gmail.com","@gmail.com","@gvpce.ac.in","@ac.in"
+      ],
+      "responses": [
+      "Thanks For your mail..Tell me a bit about your Intrests\n like blogging,sports,club Memberships,etc.."
+      ]
+    },
+    {
+      "tag": "Intrests",
+      "patterns": [
+        "Yoga","Cooking","Sports","blogging","club Memberships","art","music","reading","Singing","dancing","Coding",
+        "watching ","Travelling","Writing ","Learning new Languages"
+      ],
+      "responses": [
+        "Glad to hear...\n So now tell me What are your Weaknesses?",
+        "Nice hobby...\n Tell me your weakness",
+        "Okay...\nAnd It will be a great answer in an interview if you elaborated your interest with a previous experience.\n Now Tell me your weakness" 
+      ]
+
+    },
+    {
+      "tag": "Weakness",
+      "patterns": [
+        "My weaknesses are XXX","Lazy","lack of time mangement","Lack of strengths","sleep",
+        "not punctual","cannot ","alone"
+      ],
+      "responses": [
+        "Its nice that you have expressed your weakness in such a way that you are not embarrassed of.\n Are you an Introvert or Extrovert",
+        "Okay...And It will be a great answer in an interview if you elaborated your weakness with a previous experience.\n Are you an Introvert or Extrovert",
+        "I hope you have elaborated your weakness well in such a way that it doesnot give a bad impression on you.Let me ask you again..What is your Weakness?",
+        "Improve your answer ..What is your Weakness?"
+      ]
+    },
+    {
+      "tag": "Introvert or extrovert",
+      "patterns": [
+        "introvert","extrovert"
+      ],
+      "responses": [
+        "You can improve your answer by describing your experience...\n let me ask you again..Are you an intovert or extrovert",
+      "Why do you want this job?"
+      ]
+    },
+    {
+      "tag": "Job",
+      "patterns": [
+        "passionate ","I love the company","Your company is best","I have skills","talented","I have strengths","good ","excellent",
+        "solve problems","learn new things"
+      ],
+      "responses": [
+        "Glad to hear...\n So now tell me about a challenge you faced so far.How you dealt with it",
+        "Nice answer..But you can also share your skills,strengths...\nSo now tell me about a challenge you faced so far.How you dealt with it "
+      ]
+    },
+    {
+      "tag": "Challenge",
+      "patterns": [
+        "I have faced many challenges","when i was studying","I managed well"
+      ],
+      "responses": [
+        "I am glad that you were honest..\n How much salary are you expecting???",
+        "Mention what you'd do differently next time show that your open to learn from tough experiences...Good..Then \n How much salary are you expecting???"
+      ]
+    },
+    {
+      "tag":"salary",
+      "patterns": [
+        "I expect ","5 lakhs","8 lakhs per annum","10 lakhs","Nothing","I don't know","i cant say","as you wish"
+      ],
+      "responses": [
+        "I am glad that you were honest..\n..Thank you I have it helps your preparation",
+        "Okay...Thank You..Hope you like it and prepared well..",
+        "Okay...Thank you ..That's it up to now..\nCome Daily and practice well.\nGOOD LUCK"
+      ]
+    }
+  ]
+}
